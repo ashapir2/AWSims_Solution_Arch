@@ -16,3 +16,23 @@ Example Changes
 ***********************You may not use flow logs or in the example above in your exercise******************************************
 
 You can suggest any changes that you want as long as you document them here AND show them in your diagram whether in words or in pictures.
+
+1. Create new private subnet and Security Group for MySQl
+- Security - subnet is internal (not internet facing)
+- Performance - separate resources
+
+2. Create new availability zone
+- Reliability - protect from failure of data center
+
+3. Enable Monitoring (e.g. CPU) for MySQL - Operational Excellence
+
+4. Enable Performance Insight for MySQL - Operation Excellence
+
+5. Enable MySQL Logging - Opertional Excellence
+
+6. Autoscaling groups - add for WordPress and MySql
+- Performance - Autoscaling group adds or removes instances
+- Cost Optimization - Autoscaling group only creates instances when load is high
+- Performance Efficiency - Autoscaling group only creates instances when load is high
+
+7. Load Balancer - Performance
